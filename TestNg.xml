@@ -1,0 +1,10 @@
+<suite name="Regression" >
+    <parameter name="browser" value="chrome" />
+    <test name ="chromeTest" preserve-order="true">
+        <classes>
+           <class name="TestCase.AddAppointmentWithoutDelegateTest"/>
+            <class name="TestCase.EditAppointmentTest"/>
+            <class name="TestCase.CancelAppointmentTest"/>
+        </classes>
+    </test>
+    </suite>
